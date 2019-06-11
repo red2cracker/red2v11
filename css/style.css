@@ -151,6 +151,14 @@ a.navbar-brand:focus {
   background-color: #2567FC;
   border-color: #2567FC;
 }
+.cse-search-button:hover,
+.cse-search-button:focus,
+.cse-search-button:active {
+  color: #f00;
+  background-color: #2550fc;
+  border-color: #2550fc;
+}
+
 
 
 /* .icon-bar Start */
