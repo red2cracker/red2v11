@@ -28,6 +28,8 @@ body {
   background-image: url("../img/red2mtnk_small_sharp.png");
   background-repeat: no-repeat;
   padding-left: 65px; /* 70px */
+  /* font-family: 'Open Sans', sans-serif;
+  font-size: 18px !important; */
 }
 
 /*
@@ -125,6 +127,16 @@ body {
 */
 
 /* .icon-bar End */
+
+.footer {
+  text-align: center;
+  background-color: #f8f8f8;
+  margin-top: 20px;
+}
+.footer .list-inline {
+  margin-top: 10px;
+}
+
 
 @media (min-width: 768px) {
 
