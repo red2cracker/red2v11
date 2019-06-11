@@ -137,6 +137,16 @@ body {
   margin-top: 10px;
 }
 
+.footer .list-inline a {
+  color: #337ab7;
+  text-decoration: none;
+}
+.footer .list-inline a:hover,
+.footer .list-inline a:focus {
+  color: #f00;
+  text-decoration: none;
+}
+
 
 @media (min-width: 768px) {
 
