@@ -1,0 +1,175 @@
+/*
+.content h1 {
+  color: red;
+}
+*/
+
+/*
+.search-toggle:hover {
+  color: red;
+}
+*/
+
+body {
+  /* padding-top: 50px; */ /* 고정 메뉴 70px */
+}
+
+.header {
+  /* position: relative; */
+}
+
+
+.navbar {
+  border: 0px;
+}
+
+/* SVG는 버그가 많아서 PNG 사용 */
+.navbar-brand {
+  background-image: url("../img/red2mtnk_small_sharp.png");
+  background-repeat: no-repeat;
+  padding-left: 65px; /* 70px */
+}
+
+/*
+.navbar-brand span {
+  font-weight: bold;
+}
+*/
+
+/*
+.navbar-brand:focus {
+  border: 1px dashed #000;
+}
+*/
+
+
+.navbar-fixed-top .navbar-collapse {
+  max-height: none;
+}
+
+.dropdown-menu {
+  border-radius: 0px;
+}
+
+/*
+.test-box {
+  position: absolute;
+  top: 51px;
+  left: 0px;
+}
+*/
+
+
+.con-content {
+  background-color: #f8f8f8;
+}
+
+/*
+.cse-search-box * {
+  box-sizing: content-box;
+}
+*/
+
+.navbar-form .cse-keyword {
+  display: inline-block;
+  width: 200px; /* auto; */
+}
+
+.navbar-form .cse-search-button {
+  display: inline-block;
+}
+
+/*
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: red;
+}
+*/
+
+.cse-keyword {
+  border-radius: 0px;
+}
+.cse-search-button {
+  border-radius: 0px;
+}
+
+
+/* .icon-bar Start */
+/* https://julienmelissas.com/animated-x-icon-for-the-bootstrap-navbar-toggle/ */
+/*
+.navbar-toggle .icon-bar {
+  width: 22px;
+  transition: all 0.2s;
+}
+.navbar-toggle .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+.navbar-toggle .middle-bar {
+  opacity: 0;
+}
+.navbar-toggle .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+
+.navbar-toggle.collapsed .top-bar {
+  transform: rotate(0);
+}
+.navbar-toggle.collapsed .middle-bar {
+  opacity: 1;
+}
+.navbar-toggle.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+*/
+
+/* .icon-bar End */
+
+@media (min-width: 768px) {
+
+.navbar {
+  border-radius: 0px;
+}
+
+.navbar-nav a {
+  font-weight: bold;
+}
+.navbar-nav a:hover {
+  background-color: #ccc !important;
+}
+.dropdown:hover .dropdown-toggle {
+  color: #333;
+  background-color: #ccc;
+}
+
+
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+    /* margin: 0; */
+}
+
+.navbar-form {
+  padding: 0px;
+}
+.navbar-form .form-control {
+  width: 120px;
+}
+
+}
+
+
+@media (min-width: 992px) {
+
+.navbar-form .form-control {
+  width: 200px; /* auto; */
+}
+
+}
+
+
+@media (min-width: 1200px) {
+
+}
+
+
