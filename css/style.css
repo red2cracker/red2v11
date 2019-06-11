@@ -225,6 +225,7 @@ body {
   font-weight: bold;
 }
 .navbar-nav a:hover {
+  /*color: #f00 !important;*/
   background-color: #ccc !important;
 }
 .dropdown:hover .dropdown-toggle {
