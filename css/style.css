@@ -77,12 +77,12 @@ body {
 .navbar-brand span {
   font-weight: 700;
 }
-a.navbar-brand {
+.navbar-inverse .navbar-brand {
   color: #fff !important;
   text-decoration: none;
 }
-a.navbar-brand:hover,
-a.navbar-brand:focus {
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
   color: #f00 !important;
   text-decoration: none;
 }
@@ -230,6 +230,10 @@ a.navbar-brand:focus {
 .dropdown:hover .dropdown-toggle {
   color: #333;
   background-color: #ccc;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
 }
 
 
